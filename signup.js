@@ -46,7 +46,7 @@ $(document).ready(function () {
             // success
             alert('Sign up successful!');
             $('form')[0].reset();
-            window.location = "try11.html";
+            window.location = "index.html";
             alert('Please sign in with your credentials!');
         });
      //.............................................................
