@@ -46,7 +46,7 @@ $(document).ready(function () {
             // success
             alert('Sign up successful!');
             $('form')[0].reset();
-            window.location = "C:/Users/sft5/Desktop/Assesment/try11.html";
+            window.location = "try11.html";
             alert('Please sign in with your credentials!');
         });
      //.............................................................
