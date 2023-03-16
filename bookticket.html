@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Ticket Booking</title>
+    <link rel="stylesheet" href="css/ticketbook.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+
+
+
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <section class="logo">
+                <a href="try11.html">
+                    <strong>Travel</strong>
+                    <span class="blue-dot"></span>
+                    <span>Vogo</span>
+                </a>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="try11.html">Home Page</a></li>
+                    <li><a href="bookings.html">My bookings</a></li>
+                    <li><a href="bookticket.html#footer">Contact US</a></li>
+
+
+                    <li class="menu-icon"><img src="images/menu_icon.png" alt="menu icon"></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+
+        <img src="images/imgback.JPG">
+
+        <div class="hero-content">
+            <div class="container">
+                <h1>Kindly scroll down to book your tickts</h1>
+                <p id="tagline1">
+                    you will see some of the options you just select the bus type and seats below.
+                </p>
+                <p id="tagline2">
+                    Have an amazing journey with us
+                </p>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <section class="booking">
+        <div class="container cntr2">
+            <div class="forms">
+
+                <h2>Bus Ticket Booking</h2>
+                <form>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"  placeholder="Your name here.." required>
+                    <br>
+
+                    <label for="mail">Email-Id:</label>
+                    <input type="email" id="mail" name="mail" placeholder="Enter Email adress" required>
+                    <br>
+
+                    <label for="From">From</label>
+                    <select id="Source" name="Source" required>
+                        <option value="">-From-</option>
+                        <option value="Wadala">Wadala</option>
+                        <option value="Dadar">dadar</option>
+                        <option value="Vashi">Vashi</option>
+                        <option value="Panvel">Panvel</option>
+                    </select>
+                    <br>
+
+
+
+                    <label for="Dest">Destination</label>
+                    <select id="Dest" name="Dest" required>
+                        <option value="">-To-</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Trivandrum">Trivandrum</option>
+                    </select>
+
+                    <br>
+
+                    <label>Date</label>
+                    <input type="date" id="dates" />
+                    <br>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">-Select Gender-</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <br>
+
+                    <label for="seat-number">Seat Number:</label>
+                    <select id="seat-number" name="seatNumber" required>
+                        <option value="">-Select Seat-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                    </select>
+                    <br>
+                    <button type="submit">Book Seat</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="seat">
+
+        <img src="images/seat2.JPG" alt="seat image">
+    </div>
+
+
+
+
+
+
+    <footer>
+        <div class="bottom-nav" id="footer">
+            <div class="container">
+                <ul>
+                    <li class="list-title">Categories</li>
+                    <li><a href="#">Premium Buses</a></li>
+                    <li><a href="#">Ac buses</a></li>
+                    <li><a href="#">sleeper coaches</a></li>
+                    <li><a href="#">Seater buses</a></li>
+                    <li><a href="#">Regular buses</a></li>
+                </ul>
+
+                <ul>
+                    <li class="list-title">About Us</li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Awards</a></li>
+                    <li><a href="#">Stores</a></li>
+                </ul>
+
+                <ul>
+                    <li class="list-title">Social Media</li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+
+                <ul>
+                    <li class="list-title">Customer Service</li>
+                    <li><a href="#">Live Chat</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Delivery & Returns</a></li>
+                    <li><a href="#">Finance</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="copyright-text">
+            2023 &copy; All Rights Reserved
+        </div>
+    </footer>
+
+
+
+    <!--
+
+        <script src="js/tryjs2.js"></script>
+            <script src="js/bookticket.js"></script>
+
+        -->
+    <script src="js/tryjs2update.js"></script>
+
+
+
+</body>
+</html>
