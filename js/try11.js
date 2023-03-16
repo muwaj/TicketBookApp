@@ -8,12 +8,12 @@ $(document).ready(function () {
 
     $("#btnsignin").click(function () {
         alert("Do you want to Sign In?");
-        window.location = "C:/Users/sft5/Desktop/Assesment/signin.html";
+        window.location = "signin.html";
     });
 
     $("#btnsignup").click(function () {
         alert("Do you want to Sign Up?");
-        window.location = "C:/Users/sft5/Desktop/Assesment/signup.html";
+        window.location = "signup.html";
     });
 
 
