@@ -16,7 +16,7 @@ $(document).ready(function () {
 
         if (userName.value == storedName && userPw.value == storedPw) {
             alert('You are logged in.');
-            window.location = "C:/Users/sft5/Desktop/Assesment/bookticket.html";
+            window.location = "bookticket.html";
         } else {
             alert('Error on login');
         }
